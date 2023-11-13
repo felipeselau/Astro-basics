@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+
+---
+
+<Layout title="Home" >
+	<Navbar/>
+	<div class="w-3/4 flex flex-col items-center">
+		<h2
+		class="text-3xl font-semibold mt-6"
+		>This is Astro</h2>
+		<h2
+		class="text-2xl"
+		>easy to <span class="text-orange-500 font-bold">use</span>, 
+			<br>easy to <span class="text-orange-500 font-bold">read</span> and
+			<br>easy to <span class="text-orange-500 font-bold">mantain</span> web framework</h2>
+	</div>
+	<div class="mt-8 w-3/4">
+		<h2>Why Astro?</h2>
+	</div>
+	<div class="mt-8 w-3/4">
+		<h2>Is Astro this good?</h2>
+	</div>
+	<div class="mt-8 w-3/4">
+		<h2>Should I change to Astro?</h2>
+	</div>
+	<div class="mt-8 w-3/4">
+		<h2>But I'm already a React Developer!</h2>
+	</div>
+</Layout>
